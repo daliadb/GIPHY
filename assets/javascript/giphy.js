@@ -2,8 +2,7 @@
 
 //=======Global Variables=======
 	// Theme Array
-	var topics = [
-		"Captain Picard",
+	var topics = ["Captain Picard",
 		"Counselor Troi",
 		"Lt. Worf",
 		"Data",
@@ -109,7 +108,7 @@
 
 // ===== Click Event Listener ========
 // UPDATE DISPLAY TAG HERE
-	$(document).on("click", ".ppl-btn", display);
+	$(document).on("click", ".ppl-btn", displayGifInfo);
 
 // ======= Display initial buttons ======
 
